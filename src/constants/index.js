@@ -72,7 +72,7 @@ export const experiences = [
         iconBg: "#fbc3bc",
         date: "December 2023",
         points: [
-            "As an Assistant Manager at Jio, I initially started my journey with the company in the capacity of a Graduate Engineer Trainee through the Jio Ignite program.",
+            "As an Assistant Manager at Jio Bond Team, I initially started my journey with the company in the capacity of a Graduate Engineer Trainee through the Jio Ignite program.",
             
         ],
     }
