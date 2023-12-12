@@ -6,6 +6,12 @@ const List =()=>{
     return(
         <>
         <br/><br/><br/>
+        <h2 className='head-text text-center'>
+        My typed{" "}
+        <span className='blue-gradient_text font-semibold drop-shadow'>
+          Books
+        </span>
+        </h2>
         <div className="my-5">
         </div>
         <div className="container-fluid mb-5">
