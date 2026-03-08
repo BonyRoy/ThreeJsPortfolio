@@ -5,7 +5,7 @@ import Card from "../old/Card";
 const List =()=>{
     return(
         <>
-        <br/><br/><br/>
+        <div className="max-container pt-8">
         <h2 className='head-text text-center'>
         My typed{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
@@ -16,7 +16,7 @@ const List =()=>{
         </div>
         <div className="container-fluid mb-5">
         <div className="row">
-        <div className="col-10 mx-auto">
+        <div className="col-11 col-sm-10 mx-auto">
             <div className="row gy-4">
             {
                 Booksdata.map((val, ind)=>{
@@ -30,6 +30,7 @@ const List =()=>{
         </div>
         </div>
         </div>  
+        </div>
         </div>
         </>
         );

@@ -29,7 +29,7 @@ const About = () => {
       <div className='py-10 flex flex-col'>
         <h3 className='subhead-text'>My Skills.</h3>
 
-        <div className='mt-16 flex flex-wrap gap-12'>
+        <div className='mt-10 sm:mt-16 flex flex-wrap gap-6 sm:gap-12 justify-center sm:justify-start'>
           {skills.map((skill) => (
             <div className='block-container w-20 h-20' key={skill.name}>
               <div className='btn-back rounded-xl' />
@@ -50,8 +50,8 @@ const About = () => {
         <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         </div>
 
-        <div className='mt-12 flex'>
-          <VerticalTimeline>
+        <div className='mt-12 flex overflow-x-hidden'>
+          <VerticalTimeline lineColor='#e5e7eb'>
             {experiences.map((experience, index) => (
               <VerticalTimelineElement
                 key={experience.company_name}

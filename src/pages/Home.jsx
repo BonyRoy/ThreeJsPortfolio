@@ -58,7 +58,7 @@ const Home = () => {
 
   return (
     <section className='w-full h-screen relative'>
-      <div className='absolute top-28 left-0 right-0 z-10 flex items-center justify-center'>
+      <div className='absolute top-20 sm:top-28 left-0 right-0 z-10 flex items-center justify-center px-2'>
         {currentStage && <HomeInfo currentStage={currentStage} />}
       </div>
 
@@ -103,12 +103,12 @@ const Home = () => {
         </Suspense>
       </Canvas>
 
-      <div className='absolute bottom-2 left-2'>
+      <div className='absolute bottom-2 left-2 sm:bottom-4 sm:left-4'>
         <img
           src={!isPlayingMusic ? soundoff : soundon}
           alt='jukebox'
           onClick={() => setIsPlayingMusic(!isPlayingMusic)}
-          className='w-10 h-10 cursor-pointer object-contain'
+          className='w-9 h-9 sm:w-10 sm:h-10 cursor-pointer object-contain'
         />
       </div>
     </section>

@@ -5,24 +5,17 @@ import Card1 from "./Card1";
 const List =()=>{
     return(
         <>
-        <br/><br/><br/>
+        <div className="max-container pt-8">
         <h2 className='head-text text-center'>
         My HandWritten{" "}
         <span className='blue-gradient_text font-semibold drop-shadow'>
           Notes
         </span>
         </h2>
-        <div className="my-5">
-        <div className="container-fluid mb-5"
-            //    style={ {
-            //     backgroundColor: '#a7bfe0',
-            // }}
-        >
-        <div className="my-5">
-        </div>
+        <div className="my-5"></div>
         <div className="container-fluid mb-5">
         <div className="row">
-        <div className="col-10 mx-auto">
+        <div className="col-11 col-sm-10 mx-auto">
             <div className="row gy-4">
             {
                 HandWrittendata.map((val, ind)=>{
@@ -41,7 +34,6 @@ const List =()=>{
             }
         </div>
         </div>
-        </div>  
         </div>
         </div>
         </div>
